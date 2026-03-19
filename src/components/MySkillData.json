@@ -1,0 +1,50 @@
+[
+  {
+    "img": "images/html.png",
+    "name": "HTML",
+    "percent": "95",
+    "color": "#61dafb"
+  },
+  {
+    "img": "images/css.png",
+    "name": "CSS",
+    "percent": "85",
+    "color": "#e901f7"
+  },
+  {
+    "img": "images/js.png",
+    "name": "JS",
+    "percent": "70",
+    "color": "#42b883"
+  },
+  {
+    "img": "images/react.png",
+    "name": "React",
+    "percent": "75",
+    "color": "#61dafb"
+  },
+   {
+    "img": "images/vite.png",
+    "name": "Vite",
+    "percent": "65",
+    "color": "#42b865"
+  },
+  {
+    "img": "images/bootstrap.png",
+    "name": "Bootstrap",
+    "percent": "80",
+    "color": "#06b6d4"
+  },
+  {
+    "img": "images/tailwind.png",
+    "name": "Tailwind",
+    "percent": "75",
+    "color": "#3776ab"
+  }, {
+    "img": "images/github.png",
+    "name": "GitHub",
+    "percent": "80",
+    "color": "#a1bc23"
+  }
+]
+

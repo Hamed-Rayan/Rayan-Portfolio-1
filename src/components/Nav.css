@@ -1,0 +1,132 @@
+.nav {
+  width: 100%;
+}
+.dark .nav-box {
+  background: #fff;
+  color: #000;
+}
+.nav-box {
+  margin: 10px auto;
+  width: 60%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 10px;
+  background: linear-gradient(
+    to bottom right,
+    hwb(0 20% 80%),
+    hwb(0 5% 90%),
+    hwb(0 0% 100%)
+  );
+  box-shadow: 0 0 10px rgb(63, 63, 63);
+}
+.nav-box span {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #fe7305;
+}
+.dark.nav-box span {
+  color: darkblue;
+}
+.lightDarkIcons {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.links {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.5rem;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.hire-btn {
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  .navlink {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: #fff;
+    width: 150px;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1;
+    gap: 20px;
+    list-style: none;
+  }
+  .dark.navlink {
+    background: #000;
+  }
+  .dark.navlink .links {
+    color: #fff;
+  }
+
+  .navlink.active {
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-box {
+    width: 40%;
+    gap: 40px;
+  }
+  .nav-box span {
+    font-size: 0.9rem;
+  }
+
+  .nav-box img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .nav-box {
+    width: 70%;
+    padding: 10px 15px;
+  }
+  .nav-box span {
+    font-size: 1rem;
+  }
+  .navlink {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    flex-grow: 1;
+  }
+  .dark .nav-box .navlink .links {
+    color: #000;
+  }
+  .navlink .links {
+    text-decoration: none;
+    color: white;
+  }
+  .dark .nav-box .hire-btn {
+    border: 1px solid darkblue;
+    color: #000;
+  }
+  .nav-box .hire-btn {
+    display: inline;
+    padding: 5px 10px;
+    font-size: 0.6rem;
+    text-decoration: none;
+    border-radius: 30px;
+    flex-grow: 0;
+    color: white;
+    border: 1px solid #fff;
+  }
+  .menu-icon {
+    display: none;
+  }
+}

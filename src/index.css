@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.9s;
+  font-family: sans-serif;
+}
+.body.light{
+  background: #0f172a;
+  color: #fff;
+ 
+}
+.body {
+  background-color: #fff;
+  color: #000;
+
+}

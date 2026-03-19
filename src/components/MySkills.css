@@ -1,0 +1,83 @@
+.heading2 {
+  text-align: center;
+  color: #fff;
+}
+.dark.heading2 {
+  color: #000;
+}
+.heading2 span {
+  color: #fe7305;
+}
+.dark.heading2 span {
+  color: darkblue;
+}
+.p {
+  font-size: 0.6rem;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+p {
+  font-size: 0.6rem;
+}
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+  color: #fff;
+}
+.card {
+  width: 220px;
+  background: #192339;
+
+  border-radius: 15px;
+  padding: 25px;
+  color: white !important;
+  box-shadow: 0 4px 15px rgba(19, 19, 19, 0.3);
+}
+.heading2-1 {
+  color: #fff !important;
+  font-size: 0.7rem !important;
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.05);
+  background: #1f2937;
+
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.card-header h2 {
+  font-size: 1rem;
+}
+.card-header img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+.bar-background {
+  width: 100%;
+  height: 8px;
+  background-color: #374151;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+.card-footer {
+  width: 50%;
+  height: 3px;
+  background: #fe7305;
+  margin-top: 15px;
+  border-radius: 30px;
+}

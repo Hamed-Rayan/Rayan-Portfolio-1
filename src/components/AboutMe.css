@@ -1,0 +1,146 @@
+.container2 {
+  width: 90%;
+  display: grid;
+  grid-template-areas:
+    "row1"
+    "row2"
+    "row3";
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.container2 h2 {
+  grid-area: row1;
+  color: #fe7305;
+  font-size: 1rem;
+  margin: 20px auto;
+}
+.dark.container2 h2 {
+  color: darkblue;
+}
+.left-div {
+  margin: 0 auto;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  grid-area: row2;
+  box-shadow: 0px 0px 15px 10px #fe7305;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark.left-div {
+  box-shadow: 0px 0px 15px 10px darkblue;
+}
+.myImages {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 10px inset #fe7305;
+  align-self: center;
+}
+.dark.left-div img {
+  box-shadow: 0px 0px 15px 10px inset darkblue;
+}
+.right-div {
+  grid-area: row3;
+  text-align: center;
+}
+
+.autscale {
+  animation: autoScale;
+  animation-timeline: view(50% 0);
+}
+@keyframes autoScale {
+  from {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.info {
+  font-size: 0.5rem;
+  margin: 20px 0 10px 0;
+  width: 100%;
+}
+.ps {
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.ps p span {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #fe7305;
+}
+.dark.ps p span {
+  color: darkblue;
+}
+
+.right-div button {
+  width: 100%;
+  border: 1px solid #fe7305;
+  border-radius: 30px;
+  background: transparent;
+  color: white;
+  padding: 5px 0;
+  margin: 20px 0;
+  font-size: 0.6rem;
+}
+.dark.right-div button {
+  color: darkblue;
+  border: 1px solid darkblue;
+}
+@media screen and (min-width: 768px) {
+  .container2 h2 {
+    font-size: 1.2rem;
+  }
+  .info {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .ps {
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .ps p span {
+    font-size: 1rem;
+  }
+  .right-div button {
+    width: 50%;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container2 h2 {
+    font-size: 1.5rem;
+  }
+  .right-div {
+    align-self: center;
+    text-align: center;
+  }
+
+  .info {
+    font-size: 0.8rem;
+    padding-left: 10px;
+  }
+  .ps {
+    font-size: 0.4rem;
+  }
+
+  .right-div button {
+    width: 30%;
+    font-size: 0.6rem;
+  }
+}

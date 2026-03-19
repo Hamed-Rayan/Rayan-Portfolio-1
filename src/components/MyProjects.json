@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Portfolio",
+    "description": "A professional website to showcase my web development journey",
+    "img": "images/portfolio.png",
+    "bgcolor": "aqua",
+    "color": "red"
+   
+  },
+  {
+    "name": "Mini Projects",
+    "description": "A collection of creative web apps focusing on JavaScript logic and DOM.",
+    "img": "images/miniProjects.jpg",
+    "bgcolor": "teal",
+    "color": "blue"
+    
+  },
+  {
+    "name": "To Do App",
+    "description": "A functional task manager with a clean UI and real-time CRUD features.",
+    "img": "images/todo.png",
+    "bgcolor": "gray",
+    "color": "yellow",
+    "githubLink": "https://github.com/Hamed-Rayan/todo"
+  },
+  {
+    "name": "Robots Website",
+    "description": "A futuristic landing page featuring modern UI and responsive design",
+    "img": "images/robots.jpeg",
+    "color": "brown",
+    "bgcolor": "dodgerblue"
+    
+  }
+]
