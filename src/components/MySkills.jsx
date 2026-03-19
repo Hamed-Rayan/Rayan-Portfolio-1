@@ -1,6 +1,6 @@
 import MySkillsData from "./MySkillData.json";
 import "./MySkills.css";
-function MySkills({ theme, setTheme }) {
+function MySkills({ theme}) {
   return (
     <>
       <div>

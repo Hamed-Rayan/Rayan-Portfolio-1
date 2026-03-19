@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-function Footer({ theme, setTheme }) {
+function Footer({ theme}) {
   return (
     <div className="footer">
       <div className={`footer-div1 ${theme}`}>

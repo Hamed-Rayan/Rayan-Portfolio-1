@@ -9,22 +9,22 @@ function Home({ theme, setTheme }) {
   return (
     <>
       <section id="header">
-        <Header theme={theme} setTheme={setTheme} />
+        <Header theme={theme} />
       </section>
       <section id="about">
-        <AboutMe theme={theme} setTheme={setTheme} />
+        <AboutMe theme={theme} />
       </section>
       <section id="skills">
-        <MySkills theme={theme} setTheme={setTheme} />
+        <MySkills theme={theme} />
       </section>
       <section id="projects">
-        <MyProjects theme={theme} setTheme={setTheme} />
+        <MyProjects theme={theme} />
       </section>
       <section id="contact">
-        <Contact theme={theme} setTheme={setTheme} />
+        <Contact theme={theme} />
       </section>
       <section id="footer">
-        <Footer theme={theme} setTheme={setTheme} />
+        <Footer theme={theme} />
       </section>
     </>
   );

@@ -1,6 +1,5 @@
 import "./Header.css";
-import Contact from "./Contact";
-function Header({ theme, setTheme }) {
+function Header({ theme}) {
   const scrollToContact = () => {
     const contactSenction = document.getElementById("contact");
     if (contactSenction) {

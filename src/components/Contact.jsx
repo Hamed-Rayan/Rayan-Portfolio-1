@@ -2,7 +2,7 @@ import emailjs from "emailjs-com";
 import { useRef } from "react";
 import "./Contact.css";
 emailjs.init("MZMPE0LmpUi5ViuWT");
-function Contact({ theme, setTheme }) {
+function Contact({ theme }) {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();

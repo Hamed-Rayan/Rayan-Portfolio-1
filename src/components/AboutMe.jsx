@@ -1,5 +1,5 @@
 import "./AboutMe.css";
-function AboutMe({ theme, setTheme }) {
+function AboutMe({ theme}) {
   return (
     <>
       <div className={`container2 ${theme}`}>

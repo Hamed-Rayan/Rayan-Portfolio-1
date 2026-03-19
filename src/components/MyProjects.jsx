@@ -1,6 +1,6 @@
 import "./MyProjects.css";
 import ProjectData from "./MyProjects.json";
-function MyProjects({ theme, setTheme }) {
+function MyProjects({ theme}) {
   return (
     <>
       <div className="projects">
