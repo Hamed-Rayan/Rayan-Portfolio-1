@@ -63,8 +63,8 @@
 }
 
 .info {
-  font-size: 0.5rem;
-  margin: 20px 0 10px 0;
+  font-size: 0.6rem;
+  margin: 30px 0 10px 0;
   width: 100%;
 }
 .ps {
@@ -75,7 +75,7 @@
 .ps p span {
   display: block;
   font-size: 0.8rem;
-  font-weight: bold;
+  font-weight: bolder;
   color: #fe7305;
 }
 .dark.ps p span {

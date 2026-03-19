@@ -1,12 +1,13 @@
 import React from "react";
 import "./Footer.css";
 
-function Footer({ theme}) {
+function Footer({ theme }) {
   return (
     <div className="footer">
       <div className={`footer-div1 ${theme}`}>
         <h5>
-          <div>c</div>2026 portfolio. All rights reserved
+          <i class="fa-solid fa-copyright" ></i>2026 portfolio. All rights
+          reserved
         </h5>
         <div className={`social-links ${theme}`}>
           <a href="">
